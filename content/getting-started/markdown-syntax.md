@@ -1,12 +1,19 @@
 ---
-title: Markdown Syntax
+title: Markdown Syntax TEST
 ---
 
+I have changed this!!!
+
 # Header 1
+
 ## Header 2
+
 ### Haeder 3
+
 #### Header 4
+
 ##### Header 5
+
 ###### Header 6
 
 ## Lists
@@ -43,19 +50,19 @@ title: Markdown Syntax
 
 ## Table
 
-| Name | Type | Default | Description |
-| :- | :- | :-: | :- |
-| alt | String | | Passed through to alt on img tag |
-| size | Number | 20 | adds the `avatar-small` class if less than 24 |
-| src | String | | The source url of the avatar image |
-| square | Boolean | false| Used to create a square avatar |
+| Name   | Type    | Default | Description                                   |
+| :----- | :------ | :-----: | :-------------------------------------------- |
+| alt    | String  |         | Passed through to alt on img tag              |
+| size   | Number  |   20    | adds the `avatar-small` class if less than 24 |
+| src    | String  |         | The source url of the avatar image            |
+| square | Boolean |  false  | Used to create a square avatar                |
 
 ## Code block
 
 ### Html code
 
 ```html
-<input type="checkbox" value="1" checked>
+<input type="checkbox" value="1" checked />
 ```
 
 To provide the code blocks use the following markdown syntax. You can specify the language
@@ -74,7 +81,7 @@ ${'```'}
 The code in the examples can be rendered so that they can be living!
 
 ```html live
-<input type="checkbox" value="1" checked> Label
+<input type="checkbox" value="1" checked /> Label
 ```
 
 Merely add `live` attribute next to the language.
@@ -92,7 +99,7 @@ ${'```'}
 Or you can provide a living example of the component but hide its code.
 
 ```html live nocode
-<input type="checkbox" value="1" checked> Label
+<input type="checkbox" value="1" checked /> Label
 ```
 
 This is done with an additional `nocode` attribute.
@@ -138,7 +145,6 @@ ${'```'}
 
 And the code blocks alone work for React examples as well.
 
-
 ```jsx
 <AwesomeButton type="primary">Primary</AwesomeButton>
 ```
@@ -156,6 +162,7 @@ ${'```'}
 ### Do and don't
 
 #### With images
+
 <DoDontContainer>
   <Do src="https://user-images.githubusercontent.com/586552/63106528-06de5100-bf51-11e9-8a5e-98583ed74874.png">
     Use brief and direct communication
@@ -166,6 +173,7 @@ ${'```'}
 </DoDontContainer>
 
 #### With HTML
+
 <DoDontContainer>
   <Do>
     Use brief and <b>direct communication</b>
@@ -176,6 +184,7 @@ ${'```'}
 </DoDontContainer>
 
 #### With makrdown (TODO)
+
 <DoDontContainer>
   <Do>
     Use brief and direct communication **test**
@@ -184,7 +193,6 @@ ${'```'}
     Don't use wordy and redundant copy
   </Dont>
 </DoDontContainer>
-
 
 ### Caption
 
